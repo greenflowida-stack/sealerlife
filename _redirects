@@ -1,0 +1,6 @@
+/property  /.netlify/functions/property  200
+/conditions  /.netlify/functions/conditions  200
+/jobs  /.netlify/functions/jobs  200
+/export  /.netlify/functions/export  200
+/chat  /.netlify/functions/chat  200
+/*  /index.html  200

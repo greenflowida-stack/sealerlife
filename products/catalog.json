@@ -1,0 +1,74 @@
+{
+  "company": "Sealer Life",
+  "location": "Fort Myers, Florida",
+  "phone": "1-888-253-6962",
+  "products": [
+    {
+      "id": "peroxcity",
+      "name": "PeroXcity",
+      "kind": "cleaner",
+      "status": "live",
+      "summary": "Super boosted hydrogen peroxide cleaner. Concentrate kit (Part A 35% H2O2 + Part B Accelerator) and Ready-To-Use 7%.",
+      "rules": {
+        "partB": "One 32 oz bottle of Part B per gallon of Part A, regardless of water",
+        "ratios": {
+          "1:4": "light / everyday",
+          "1:3": "heavy organic",
+          "1:2": "super strength",
+          "1:1": "spot treatment only"
+        },
+        "dwellMin": [
+          15,
+          45
+        ],
+        "kitMakesGal": {
+          "1:4": 5,
+          "1:3": 4,
+          "1:2": 3
+        },
+        "retailKit": 125
+      },
+      "coverageSqftPerGal": {
+        "vinyl": 200,
+        "wood": 200,
+        "concrete_pavers": 200,
+        "crawl": 100,
+        "roof_asphalt": 175,
+        "grease": 80
+      },
+      "knowledge": "knowledge/peroxcity-kb.md",
+      "site": "https://peroxcity.com",
+      "label": "https://peroxcity.com/label/kit"
+    },
+    {
+      "id": "paver-sealer",
+      "name": "Paver Sealer (name TBD)",
+      "kind": "sealer",
+      "status": "placeholder",
+      "fields_needed": [
+        "coverage sq ft/gal per coat",
+        "coats",
+        "dry to touch",
+        "recoat window",
+        "full cure",
+        "application temp range",
+        "dew point / rain window",
+        "surface prep",
+        "safety block",
+        "retail price"
+      ]
+    },
+    {
+      "id": "concrete-sealer",
+      "name": "Concrete Sealer (name TBD)",
+      "kind": "sealer",
+      "status": "placeholder"
+    },
+    {
+      "id": "wood-sealer",
+      "name": "Wood / Deck Sealer (name TBD)",
+      "kind": "sealer",
+      "status": "placeholder"
+    }
+  ]
+}
